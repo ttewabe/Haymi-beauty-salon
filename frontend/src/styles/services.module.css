@@ -1,0 +1,32 @@
+.scrollbarHide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbarHide::-webkit-scrollbar {
+  display: none;
+}
+
+.snapX {
+  scroll-snap-type: x mandatory;
+}
+
+.snapStart {
+  scroll-snap-align: start;
+}
+
+.perspective1000 {
+  perspective: 1000px;
+}
+
+.transformStylePreserve3d {
+  transform-style: preserve-3d;
+}
+
+.backfaceHidden {
+  backface-visibility: hidden;
+}
+
+.rotateY180 {
+  transform: rotateY(180deg);
+}

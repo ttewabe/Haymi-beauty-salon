@@ -1,0 +1,24 @@
+/* styles/Gallery.module.css */
+.cardHover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cardHover:hover .overlay {
+  opacity: 0.5;
+}
+
+/* Hide scrollbar for categories */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
