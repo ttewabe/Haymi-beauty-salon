@@ -1,0 +1,11 @@
+@HaymiBeautySalon.Api_HostAddress = http://localhost:5070
+
+GET {{HaymiBeautySalon.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{HaymiBeautySalon.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
